@@ -16,7 +16,7 @@
                     <!-- Category name selector -->
                     <div class="col-6">
                         <label for="category_id">Category</label>
-                        <select name="category_id" id="category_id" class="form-select" required>
+                        <select name="category_id" id="category_id" class="form-select">
                             <option value="" disabled selected>Select a category</option>
                             {{-- Loop through each category in the products collection --}}
                             @foreach ($products as $categoryName => $items)
